@@ -1,0 +1,13 @@
+ticket_id,email,expected_category,expected_priority
+T001,We were charged twice for our subscription this month. Please reverse the duplicate payment.,billing,high
+T002,Our API requests started returning HTTP 401 after we rotated the access token.,technical_api,high
+T003,Could you add dark mode to the analytics dashboard in a future release?,feature_request,low
+T004,I cannot log in even after resetting my password. Our team is blocked from working.,account_access,urgent
+T005,Can you explain where I can download last month's invoice?,billing,medium
+T006,The API returns HTTP 500 for every request and our production integration is down.,technical_api,urgent
+T007,It would be useful to export dashboard charts as a PowerPoint presentation.,feature_request,low
+T008,Please update the billing contact email on our company account.,billing,medium
+T009,Our API integration is intermittently timing out and delaying customer order processing.,technical_api,high
+T010,Where can I find documentation for setting up a new workspace?,other,low
+T011,Please cancel the duplicate invoice before our finance team pays it.,billing,high
+T012,Please add webhook delivery history so developers can troubleshoot failed events.,feature_request,medium

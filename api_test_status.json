@@ -1,0 +1,10 @@
+{
+  "project": "P4 Customer Support Intent Router",
+  "api_key_configured": true,
+  "real_api_test": "blocked",
+  "error_type": "insufficient_quota",
+  "reason": "OpenAI API account has no credits remaining",
+  "mock_benchmark": "completed",
+  "real_llm_metrics_available": false,
+  "next_action": "Add API credits and rerun the real benchmark if desired"
+}

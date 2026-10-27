@@ -1,0 +1,4 @@
+mode,prompt_variant,tickets,category_accuracy,priority_accuracy,schema_validity,mean_latency_ms
+mock,few_shot,12,1.0,0.9167,1.0,0.035
+mock,reasoning_summary,12,1.0,0.9167,1.0,0.035
+mock,zero_shot,12,1.0,0.9167,1.0,0.051

@@ -1,0 +1,9 @@
+{
+  "mode": "mock",
+  "tickets_evaluated": 12,
+  "category_accuracy": 1.0,
+  "priority_accuracy": 1.0,
+  "schema_validity": 1.0,
+  "mean_latency_ms": 0.0393,
+  "real_llm_metrics": false
+}

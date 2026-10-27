@@ -1,0 +1,58 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "priority": {
+      "description": "Urgency of the customer's issue",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "urgent"
+      ],
+      "title": "Priority",
+      "type": "string"
+    },
+    "category": {
+      "description": "Primary support category",
+      "enum": [
+        "billing",
+        "technical_api",
+        "feature_request",
+        "account_access",
+        "other"
+      ],
+      "title": "Category",
+      "type": "string"
+    },
+    "summary": {
+      "description": "Concise summary of the customer's issue",
+      "maxLength": 240,
+      "minLength": 5,
+      "title": "Summary",
+      "type": "string"
+    },
+    "draft_response": {
+      "description": "Polite, concise response draft for a support agent",
+      "maxLength": 1000,
+      "minLength": 10,
+      "title": "Draft Response",
+      "type": "string"
+    },
+    "reasoning_summary": {
+      "description": "Brief, user-safe explanation of the classification",
+      "maxLength": 240,
+      "minLength": 5,
+      "title": "Reasoning Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "priority",
+    "category",
+    "summary",
+    "draft_response",
+    "reasoning_summary"
+  ],
+  "title": "SupportTicketResult",
+  "type": "object"
+}
